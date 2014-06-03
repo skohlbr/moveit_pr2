@@ -9,6 +9,7 @@ find_package(Eigen REQUIRED)
 find_package(Boost REQUIRED thread)
 
 find_package(catkin COMPONENTS
+  cmake_modules
   moveit_core
   pluginlib
   actionlib
